@@ -1,7 +1,11 @@
 {
   "short_name": "Reflection",
   "name": "Daily Reflection",
-  "icons": [],
+  "icons": [{
+      "src": "mirror-reflection.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon"
+    }],
   "start_url": ".",
   "display": "fullScreen",
   "theme_color": "#000000",
