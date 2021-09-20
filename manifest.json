@@ -1,9 +1,0 @@
-{
-  "short_name": "Reflection",
-  "name": "Daily Reflection",
-  "icons": [],
-  "start_url": ".",
-  "display": "fullScreen",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
