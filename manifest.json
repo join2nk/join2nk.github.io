@@ -2,8 +2,8 @@
   "short_name": "rorreM",
   "name": "Mirror | rorriM",
   "icons": [],
-  "start_url": ".",
-  "display": "fullscreen",
+  "display": "standalone",
+  "start_url": "/?standalone=true",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
