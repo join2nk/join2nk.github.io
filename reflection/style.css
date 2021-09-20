@@ -1,3 +1,12 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+.container{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    /* margin-bottom: 70px; */
+}
 label{
     font-weight: 500;
     font-size: .8em;
@@ -8,4 +17,9 @@ label{
 }
 textarea{
     font-size: smaller;
+
+}
+textarea{
+    height: 45px;
+    width: 90%;
 }
