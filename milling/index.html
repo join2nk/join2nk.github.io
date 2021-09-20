@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--status-->
+    <div class="box">
+    <!-- current runing in mill-->
+        Status : Running / Maintaince / Breakdown / sortex / silky sortex / break<br>
+        <hr>
+        <button onclick="displayTime();">
+            on /off
+        </button><!--breakdown ,sortex ,maintanence, break --> 
+        <div class="displaytime"></div>
+        <button>silky / sortex</button> 
+        <button>batch end</button> 
+        <button>batch pause</button> 
+        <br><br>    
+        
+    <!--currnet milling end section-->
+    </div>
+
+    <!-- new batch start milling form-->
+    <div class="batch_form box">
+        <h2>Batch start/edit </h2>
+        Batch no : <input type="tel" name="" id="" style="width: 50px;margin-bottom: 10px;">
+        <br>
+       Paddy : 
+        <input type="search" list="paddy" />
+        <datalist id="paddy">
+        <option>Sarna</option>
+        <option>Mota</option>
+        <option>Patla</option>
+        
+        </datalist>
+        <br><br>
+       Drier no: jyoti :
+      
+
+       <input type="radio" id="html" name="fav_language" value="HTML" class="radio">
+       <label for="1">1</label>
+       <input type="radio" id="css" name="fav_language" value="CSS" class="radio">
+       <label for="2">2</label>
+    
+
+
+       <!-- <input type="search" list="dryer">
+       <datalist id="dryer">
+       <option>1 - ESSEL</option>
+       <option>2 - Jyoti</option>
+       </datalist> -->
+        <br><br>
+        start time : <input type="datetime-local" style="padding: 2px;border: 1px solid black;"> 
+        <br>
+        <br>  
+        
+        <button type="submit">submit</button>
+    </div>
+    <!--end of start batch form -->
+    
+ 
+    <!--new section-->
+    
+    
+    
+    
+    
+    <!--javascript-->
+    <script src="javascript.js"></script>
+
+</body>
+</html>
