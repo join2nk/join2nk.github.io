@@ -7,7 +7,7 @@
 }
 
 .card {
-  display: flex;
+  display: ;
   flex: 1 1 100%;
   margin: 15px;
   z-index: 501;
@@ -48,7 +48,7 @@ input.radio{
   width: 5%;margin-left: 25px;
 
 }
-    hr {
+    .fancyHr {
     border: none;
     border-top: 1.5px solid #999;
     color: #999;
@@ -57,7 +57,7 @@ input.radio{
     height: 2px;
     }
 
-    hr:after {
+    .fancyHr:after {
     background: #fff;
     content: '§';
     padding: 0 4px;
@@ -66,10 +66,22 @@ input.radio{
     }
 
 .batch_form{
-  display: none;
+  display: ;
 }
 .box{
   border: 2px solid rgb(190,190 ,190);border-radius: 7px;
   padding:  5px;
 }
 
+.select button{
+  margin-left:20px ;      
+  margin-top: 10px;
+  border: 0;
+  padding:5px;
+  border-radius: 5px;
+  width: 90px;
+  background-color: rgba(0,0,0,.5);
+  font-size: small;
+  font-weight: 550;
+  color: white;
+}

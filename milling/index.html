@@ -9,24 +9,45 @@
 </head>
 <body>
     <!--status-->
-    <div class="box">
-    <!-- current runing in mill-->
-        Status : Running / Maintaince / Breakdown / sortex / silky sortex / break<br>
-        <hr>
-        <button onclick="displayTime();">
-            on /off
-        </button><!--breakdown ,sortex ,maintanence, break --> 
-        <div class="displaytime"></div>
-        <button>silky / sortex</button> 
-        <button>batch end</button> 
-        <button>batch pause</button> 
-        <br><br>    
+    <div class="box card">
+    
+        <!-- current runing in mill-->
+        Status : <label class="status">  -  </label><hr class="fancyHr">
+        
+
+        <div class ="status_button" style="padding: 10% 10% 3% ;">
+            <button onclick="displayTime();" 
+                style="
+                    border: 0;
+                    padding:5px;
+                    border-radius: 5px;
+                    width: 90px;
+                    background-color: rgba(2,f,f,1);
+                ">
+               ON | OFF
+            </button><!--breakdown ,sortex ,maintanence, break --> 
+        </div>
+        
+    <!--currnet milling end section-->
+    </div>
+    <div class="box card select">
+    
+        <!-- select wsats next to runingdf in mill-->
+        Select : <hr class="fancyHr">
+        <button>Next Batch</button><hr>
+        <button>Resume old batch</button><!--pop up to  old batch lists-->
+        
+        <button>Silky Sortex</button> <hr>
+        <button>Mantainance</button> 
+        <button>Breakdown</button> 
+        <button>Power Cut</button> 
+        <br>    
         
     <!--currnet milling end section-->
     </div>
 
     <!-- new batch start milling form-->
-    <div class="batch_form box">
+    <div class="batch_form box card">
         <h2>Batch start/edit </h2>
         Batch no : <input type="tel" name="" id="" style="width: 50px;margin-bottom: 10px;">
         <br>
