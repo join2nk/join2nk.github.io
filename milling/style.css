@@ -9,21 +9,21 @@
 .card {
   display: ;
   flex: 1 1 100%;
-  margin: 15px;
+  margin: 2px;
   z-index: 501;
   position: relative;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  padding: 40px 40px 40px 30px;
+  padding: 15px 15px 15px 15px;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 2px;
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
   transition-property: color, background-color, box-shadow, -webkit-transform;
   transition-property: color, background-color, box-shadow, transform;
   transition-property: color, background-color, box-shadow, transform,
     -webkit-transform;
-  transition-duration: 0.15s;
+  transition-duration: .3s;
 }
 
 @media (min-width: 880px) {
@@ -66,22 +66,33 @@ input.radio{
     }
 
 .batch_form{
-  display: ;
+  display:list-item;
 }
 .box{
-  border: 2px solid rgb(190,190 ,190);border-radius: 7px;
-  padding:  5px;
+  /* border: 2px solid rgb(190,190 ,190);border-radius: 7px;
+  padding:  5px; */
 }
 
-.select button{
-  margin-left:20px ;      
-  margin-top: 10px;
-  border: 0;
-  padding:5px;
+button{
+  /* margin: 2px;
+  border: 1px solid black;
+  padding:2pxs;
+  height: 50px;
   border-radius: 5px;
   width: 90px;
   background-color: rgba(0,0,0,.5);
+  font-size:;
+  color: white; */
+  border: 0;
+  padding:5px;
+  border-radius: 5px;
+  width: 70px;
+  background-color: rgba(2,f,f,1);
+  height: 50px;
+  overflow:hidden;
+  padding: 3px;
+  margin: 10px;
+}
+span{
   font-size: small;
-  font-weight: 550;
-  color: white;
 }

@@ -1,6 +1,6 @@
 {
-  "short_name": "rorreM",
-  "name": "Mirror | rorriM",
+  "short_name": "MyApp",
+  "name": "MyApp",
   "icons": [],
   "display": "standalone",
   "start_url": "/?standalone=true",
