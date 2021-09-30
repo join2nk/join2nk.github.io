@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyApp</title>
+</head>
+<body>
+    <!--status-->
+    <div id="status" class="box card">
+    
+        <!-- current runing in mill-->
+        Milling Status : <label class="status">  -  </label><hr class="fancyHr">
+        
+        <div class="" style="border: 1px solid gra;">
+            
+            <span>
+                <a href="batchinput.html">
+                <button 
+                style="border-radius: 10px; height: 20px; width:40px;font-size:x-small;margin-left:80%;box-shadow: 1px 1px 3px rgba(0,0,0,.4);">•••</button></a>
+            </span>
+            <br>
+            <div class="box">
+            <span style="display:inline;"class=>
+            Batch No: <label for="" class="batchNo"></label>         
+            </span>
+            <br>
+            <span style="display:inline;">
+            Paddy : <label for="" class="paddy"></label>         
+            </span>
+            <br>
+            <span style="display:inline;">
+            drier : <label for="" class="drier"></label>         
+            </span>
+            <br>
+            <span style="display:inline;">
+            Total Run hr: <label for="" class="totalHrs"></label>         
+            </span>
+            <br><br><br>
+        </div>
+        </div>  
+
+        <div class ="status_button" >
+            <a href="selectoption.html"><button>
+               ON | OFF
+            </button></a>
+            <!--breakdown ,sortex ,maintanence, break --> 
+            <!-- <button>Lab </button> -->
+          
+        </div>
+        
+    <!--currnet milling end section-->
+    </div>
+    
+
+    <div id="batchInput" class="batch_form box card">
+        <h2>Batch start/edit </h2>
+        Batch no : <input type="tel" name="" id="" style="width: 50px;margin-bottom: 10px;">
+        <br>
+       Paddy : 
+        <input type="search" list="paddy" />
+        <datalist id="paddy">
+        <option>Sarna</option>
+        <option>Mota</option>
+        <option>Patla</option>
+        
+        </datalist>
+        <br><br>
+       Drier no: jyoti :
+      
+
+       <input type="radio" id="html" name="fav_language" value="HTML" class="radio">
+       <label for="1">1</label>
+       <input type="radio" id="css" name="fav_language" value="CSS" class="radio">
+       <label for="2">2</label>
+        <br><br>
+        start time : <input type="datetime-local" style="padding: 2px;border: 1px solid black;"> 
+        <br>
+        <br>  
+        
+        <a href="milling.html"><button type="submit">submit</button></a>
+    </div>
+
+
+
+
+    <div id="resumeBatch" class="box card">
+        Resume Old Batch
+        <hr class="fancyHr">
+        <label> Batch no: </label><input type="tel">
+        <br>
+        <br>
+        <div class="">
+            <span style="display:inline;">
+            Batch No: <label for="" class="batchNo"></label>         
+            </span>
+            <br>
+            <span style="display:inline;">
+            Paddy : <label for="" class="paddy"></label>         
+            </span>
+            <br>
+            <span style="display:inline;">
+            drier : <label for="" class="drier"></label>         
+            </span>
+            <br>
+            <span style="display:inline;">
+            Total Run hr: <label for="" class="totalHrs"></label>         
+            </span>
+            <br>
+        </div>  
+        <a href="milling.html"><button >Resume</button></a>
+    
+    </div>
+        
+    <div id="select" class="box card select">
+    
+        <!-- select wsats next to runingdf in mill-->
+        Select : <hr class="fancyHr">
+        <a href="batchinput.html">
+        <button>Next Batch</button></a>
+        <hr>
+        <a href="resumebatch.html">
+        <button>Resume old batch</button></a>
+        <a href="silkysortex.html">
+        <button>Silky Sortex</button></a> 
+        <hr>
+        <a href="off.html">
+        <button>Mantainance</button> 
+        <button>Breakdown</button> 
+        <button>Power Cut</button> </a>
+        <br>    
+        
+ 
+    <div class="absalute card">
+        <button class="footerBtn">Mill</button>
+    </div>
+
+    <!--javascript-->
+    <script src="javascript.js"></script>
+
+</body>
+</html>

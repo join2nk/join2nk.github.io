@@ -1,17 +1,11 @@
-input{
-  width: 50px;
-  border-collapse: collapse;
-  border: 0px;
-  margin:0px;
-  padding: 0px;
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&dispaly=swap'); */
 
+body{
+  box-sizing:border-box;
+  margin:0;
+  padding: 0;
+  background-color: white;
+  font-family: "loto",sans-serif;  
 }
-tr{
-  margin:0px;
-  padding: 0px;
-}
-td{
-  border: 1px solid gainsboro;
-  margin:0px;
-  padding: 0px;
-}
+
+
