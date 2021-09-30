@@ -1,6 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
+    background-color:#111
 }
 .container{
     padding-left: 20px;
@@ -9,17 +10,32 @@ body{
 }
 label{
     font-weight: 500;
-    font-size: 12px;
+    font-size: 20px;
     font-variant: small-caps;
+    color: beige;
+    border-top:2px double blanchedalmond;
 }
 .footer{
     height: 50px;
 }
 textarea{
-    font-size: smaller;
+    font-size: 13px;
+    font-weight: 500;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: beige;
+    margin-bottom: 50px;
 
 }
+h1{
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: beige;
+    margin-top: 40px;
+    
+}
 textarea{
-    height: 70px;
+    height: 120px;
     width: 90%;
+    background:#222;
 }

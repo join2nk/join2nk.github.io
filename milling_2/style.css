@@ -1,3 +1,9 @@
+
+body{
+  height: 200vh;
+  background-image:linear-gradient(#334756,hsl(205, 18%, 13%),#334756);
+  
+}
 .container {
   max-width: 1000px;
   flex-wrap: wrap;
@@ -9,14 +15,15 @@
 .card {
   display: block;
   flex: 1 1 100%;
-  margin: 2px;
+  margin: 50px 20px;
+
   z-index: 501;
   position: relative;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
   padding: 15px 15px 15px 15px;
-  background-color: #fff;
+  background-color: #d4ad57;
   border-radius: 2px;
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
   transition-property: color, background-color, box-shadow, -webkit-transform;
@@ -45,6 +52,7 @@
 
 input{
   width: 50%;
+  background-color:#e2d8c4;
 }
 input.radio{
   width: 5%;margin-left: 25px;
@@ -60,7 +68,7 @@ input.radio{
     }
 
     .fancyHr:after {
-    background: #fff;
+    background: #d4ad57;
     content: '§';
     padding: 0 4px;
     position: relative;
@@ -96,8 +104,8 @@ button{
   overflow:hidden;
   padding: 3px;
   margin: 10px;
-  box-shadow: 1px 1px 3px rgba(0,0,0,.4)
-}
+  background-color: #e2d8c4;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4);
 span{
   font-size: small;
 }
