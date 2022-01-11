@@ -8,3 +8,6 @@
   padding: 12px 0px;
   z-index: 1;
 }
+.dashcard{
+  max-width: 40%;
+}
